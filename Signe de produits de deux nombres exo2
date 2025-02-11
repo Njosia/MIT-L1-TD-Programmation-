@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main ()
+{
+  float n1,n2,N;
+  printf("veuillez entrer le nombre n1=");
+  scanf("%f", &n1);
+  printf("veuillez entrer le nombre n2=");
+  scanf("%f", &n2);
+  N=n1*n2;
+   if (N>0)
+   {
+     printf("leur produit est positif");
+   }
+     else if (N<0)
+     {
+       printf("leur produit est négatif");
+     } 
+       else 
+       {
+         printf("leur produit est nul");
+       } 
+   return (0);
+}       
+     
+   
