@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int coef1,coef2;
+    float n1,n2,moy;
+    
+    printf("vueillez entre la valeur de n1=");
+    scanf("%f", &n1);
+    printf("veuillez entrer la valeur de n2=");
+    scanf("%f", &n2);
+    printf("veuillez entrer la valeur de coefficient1=");
+    scanf("%d", &coef1);
+    printf("veuillez entrer la valeur de coefficient2=");
+    scanf("%d", &coef2);
+    moy=((n1*coef1)+(n2*coef2))/(coef1+coef2);
+    printf("Moyenne=%f", moy);
+  return (0);
+}
