@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+  float n;
+  printf("veuillez entrer le nombre n=");
+  scanf("%f", &n);
+  if (n>0)
+  {
+    printf("n est positif");
+  }
+    else if (n<0)
+    {
+      printf("n est négatif"); 
+    }
+      else if (n==0)
+      {
+        printf("n est nul");
+      }  
+  return (0); 
+}   
