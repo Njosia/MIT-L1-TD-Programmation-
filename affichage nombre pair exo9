@@ -1,0 +1,16 @@
+# include<stdio.h>
+int main ()
+{
+  int i, N, p;
+  printf("veuillez entrer le nombre N=");
+  scanf("%d", &N);
+  
+  for ( i=2; i<=N; i++)
+  {
+    p=i%2==0;
+    printf("%d\n", i,p);
+    i++;
+  } 
+ return (0);
+} 
+  
