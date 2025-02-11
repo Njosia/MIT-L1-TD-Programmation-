@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main ()
+{
+  int C1,C2;
+  float n1,n2,S,M;
+  printf("entrez le premier note n1=");
+  scanf("%f", &n1);
+  printf("entrez le deuxième note n2=");
+  scanf("%f", &n2);
+  printf("entrez le coefficient C1=");
+  scanf("%d", &C1);
+  printf("entrez le coefficient C2=");
+  scanf("%d", &C2);
+  S=n1+n2;
+  M=((n1*C1)+(n2*C2))/(C1+C2);
+  printf("Somme=%f\n", S);
+  printf("Moyenne=%f\n", M);
+  return (0);
+}  

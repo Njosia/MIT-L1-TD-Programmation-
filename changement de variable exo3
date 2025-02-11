@@ -1,0 +1,18 @@
+# include<stdio.h>
+int main ()
+{
+  float A,B,C;
+  printf("entrez la valeur de A=");
+  scanf("%f", &A);
+  printf("entrez la valeur de B=");
+  scanf("%f", &B);
+  printf("entrez la valeur de C=");
+  scanf("%f", &C);
+  C=A;
+  A=B;
+  B=C;
+  printf("C=%f\n", A);
+  printf("A=%f\n", B);
+  printf("B=%f\n", C);
+  return (0);
+}  

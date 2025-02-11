@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+ float a,b,c,x,x1,x2,x3,p,d,delta;
+ int i;
+ printf("veullez entrer la valeur de a=");
+ scanf("%f", &a);
+ printf("veuillez entrer la valeur de b=");
+ scanf("%f", &b);
+ printf("veuillez entrer la valeur de c=");
+ scanf("%f", &c);
+ delta=(b*b)-(4*a*c);
+ if (a==0);
+ {
+   x=-b/c;
+   printf("x=%f\n", x);
+ }
+     if (delta==0)
+     {
+       x1=-b/2*a;
+       printf("X1=%f\n", x1);
+     }
+       else if (delta>0)
+       {
+         p=-b/2*a;
+         d=sqrt(delta)/2*a;
+         x2=p+d;
+         x3=p-d;
+         printf("x2=%f\n", x2); 
+         printf("x3=%f\n", x3); 
+       }
+         else
+         {
+         printf("x2=%fi%d\n", x2);  
+         printf("x3=%fi%d\n", x3);
+         }
+ return (0);        
+}
