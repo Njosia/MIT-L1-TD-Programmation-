@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  float r,s,pi,p;
+  printf("veuillez entrer le rayon r=");
+  scanf("%f", &r);
+  pi=3.14;
+  s=pi*r*r;
+  p=2*pi*r;
+  printf("s=%f\n", s);
+  printf("p=%f\n",p);
+  return (0);
+}
